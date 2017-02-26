@@ -41,11 +41,6 @@ html{
 	margin-left:20px;
 }
 
-.skills_info{
-
-
-}
-
 .skill_listing{
 	margin-top: 5px;
 	margin-bottom: 5px;
@@ -67,10 +62,6 @@ html{
 	text-decoration:underline;
 	margin-bottom:1px;
 
-}
-
-.project_title:hover{
-	color:#0000b3;
 }
 
 .project_date{
@@ -119,7 +110,14 @@ html{
 	font-size:14px;
 }
 
-a {color:inherit;}
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+a:hover{
+	color:#0000b3;
+}
 
 .contact_info{
 	font-family: 'Oxygen', sans-serif;
@@ -131,12 +129,4 @@ a {color:inherit;}
 .info_line{
 	margin-bottom: 2px;
 	margin-top: 2px;
-}
-
-#github a{
-	text-decoration: none;
-}
-
-#github a:hover{
-	color:#0000b3;
 }
