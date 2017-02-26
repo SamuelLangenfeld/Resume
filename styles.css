@@ -1,52 +1,71 @@
-body{
-	position:relative;
-	top:30px;
-	width:850px;
-	height:800px;
-	margin:auto;
-}
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  </head>
+  <body>
+    <div class="personal_section"><div class="personal_info">
+      <div class="name">Samuel Langenfeld</div>
+      <div class="job_title">ASPIRING JUNIOR WEB DEVELOPER</div>
+    
 
-html{
-	background-color:#ccc;
-}
+      <div class="skills_info">
+        <div class="section_head">Skills</div>
+        <div class="underline"></div>
+        <div class="skills_list">
+          <b>PROGRAMMING</b>
+          <p class="skill_listing">Ruby on Rails</p>
+          <p class="skill_listing">Ruby</p>
+          <p class="skill_listing">Java</p>
+          <p class="skill_listing">HTML</p>
+          <p class="skill_listing">CSS</p>
+        </div>
+      </div></div>
 
-
-.personal_info{
-	margin-left:10px;
-	margin-right:10px;
-
-}
-.personal_section{
-	display:inline-block;
-	background-color:rgb(231, 234, 240);
-	width:25%;
-	height:100%;
-	vertical-align: bottom;
-
-}
-
-
-.projects_section{
-	display:inline-block;
-	background-color:white;
-	width:75%;
-	height:100%;
-	vertical-align: bottom;
-
-}
-
-.projects_info{
-	margin-top:20px;
-	margin-right:20px;
-	margin-left:20px;
-}
-
-.skills_info{
-
-
-}
-
-.skill_listing{
+    </div><div class="projects_section"><div class="projects_info">
+      <div class="section_head">Projects</div>
+      <div class="underline"></div>
+      <div class="projects_listing">
+        
+        <div class="project_title"><a href="https://github.com/SamuelLangenfeld/sample_app">
+          Ruby on Rails Tutorial by Michael Hartl
+        </a></div><div class="project_date">
+          Jan 2017 to Current
+        </div><div class="project_description">
+          I'm developing a twitter clone with Ruby on Rails. It currently has signup, login, and logout functionality.
+        </div>
+      </div>
+      <div class="projects_listing">
+        <div class="project_title">
+         Hangman App
+        </div><div class="project_date">
+          Jan 2017
+        </div><div class="project_description">
+          A simple app for a hangman game, developed through Sinatra.
+        </div>
+      </div>
+      <div class="projects_listing">
+        <div class="project_title">
+         Caesar Cipher App
+        </div><div class="project_date">
+          Jan 2017
+        </div><div class="project_description">
+          An app that takes a user's message and shifts each letter across the alphabet to encrypt it. Developed with Sinatra.
+        </div>
+      </div>
+      <div class="projects_listing">
+        <div class="project_title">
+         Command Console Chess
+        </div><div class="project_date">
+          Nov 2016 to Dec 2016
+        </div><div class="project_description">
+          A game of chess that is played on the command line between two players or against a simple A.I. who makes random legal moves. Developed in Ruby.
+        </div>
+      </div></div>
+    </div>
+  </body>
+</html>
 	margin-top: 5px;
 	margin-bottom: 5px;
 }
