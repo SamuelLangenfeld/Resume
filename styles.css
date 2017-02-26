@@ -2,7 +2,7 @@ body{
 	position:relative;
 	top:30px;
 	width:850px;
-	height:800px;
+	height:450px;
 	margin:auto;
 }
 
@@ -65,6 +65,7 @@ html{
 	font-family: 'Oxygen', sans-serif;
 	color:rgb(77, 137, 255);
 	text-decoration:underline;
+	margin-bottom:1px;
 
 }
 
@@ -88,6 +89,7 @@ html{
 .underline{
 	background-color: rgb(77, 137, 255);;
 	height:3px;
+	margin-bottom: 10px;
 }
 
 .section_head{
@@ -99,13 +101,16 @@ html{
 }
 
 .name{
+	margin-top:15px;
 	font-family: 'Oxygen', sans-serif;
 	font-size: 30px;
 }
 
 .job_title{
 	font-family: 'Oxygen', sans-serif;
-	font-size: 18px;
+	font-size: 17px;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 
 .skills_list{
@@ -114,6 +119,24 @@ html{
 	font-size:14px;
 }
 
-a{
-	color:inherit;
+a {color:inherit;}
+
+.contact_info{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 11px;
+	line-height:1.2;
+	margin-bottom: 10px;
+}
+
+.info_line{
+	margin-bottom: 2px;
+	margin-top: 2px;
+}
+
+#github a{
+	text-decoration: none;
+}
+
+#github a:hover{
+	color:#0000b3;
 }
