@@ -1,7 +1,115 @@
+body{
+	position:relative;
+	top:30px;
+	width:850px;
+	height:800px;
+	margin:auto;
+}
+
+html{
+	background-color:#ccc;
+}
+
+
 .personal_info{
-	float: left;
+	margin-left:10px;
+	margin-right:10px;
+
+}
+.personal_section{
+	display:inline-block;
+	background-color:rgb(231, 234, 240);
+	width:25%;
+	height:100%;
+	vertical-align: bottom;
+
+}
+
+
+.projects_section{
+	display:inline-block;
+	background-color:white;
+	width:75%;
+	height:100%;
+	vertical-align: bottom;
+
 }
 
 .projects_info{
-	float: right;
+	margin-top:20px;
+	margin-right:20px;
+	margin-left:20px;
+}
+
+.skills_info{
+
+
+}
+
+.skill_listing{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.projects_listing{
+	position:relative;
+	margin-top:10px;
+	margin-bottom:10px;
+
+}
+
+.project_title{
+	display:inline-block;
+	width:60%;
+	font-size:18px;
+	font-family: 'Oxygen', sans-serif;
+	color:rgb(77, 137, 255);
+	text-decoration:underline;
+
+}
+
+.project_title:hover{
+	color:#0000b3;
+}
+
+.project_date{
+	display:inline-block;
+	text-align:right;
+	width:40%;
+	font-size:18px;
+	font-family: 'Oxygen', sans-serif;
+}
+
+.project_description{
+	font-family: 'Varela Round', sans-serif;
+	font-size: 14px;
+}
+
+.underline{
+	background-color: rgb(77, 137, 255);;
+	height:3px;
+}
+
+.section_head{
+	color: rgb(77, 137, 255);
+	font-family:'Oxygen', sans-serif;
+	font-size:21px;
+	margin-top:5px;
+	margin-bottom:2px;
+}
+
+.name{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 30px;
+}
+
+.job_title{
+	font-family: 'Oxygen', sans-serif;
+	font-size: 18px;
+}
+
+.skills_list{
+	margin-top:10px;
+	font-family: 'Oxygen', sans-serif;
+	font-size:14px;
 }
