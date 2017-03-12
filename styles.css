@@ -1,132 +1,211 @@
-body{
-	position:relative;
-	top:30px;
-	width:850px;
-	height:450px;
-	margin:auto;
+/* RESPONSIVE GRID START */
+ {
+  box-sizing: border-box;
 }
 
-html{
-	background-color:#ccc;
+/* Grid measurements:
+ *
+ *   960px wide including 12 gutters (half gutters on both edges)
+ *
+ *   60px columns (12)
+ *   20px gutters (two half-gutters + 11 full gutters, so 12 total)
+ *
+ *
+ *   For smaller screens, we always want 20px of padding on either side,
+ *   so 960 + 20 + 20 => 1000px
+ *
+ **/
+.row {
+  max-width: 1000px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
 }
 
-
-.personal_info{
-	margin-left:10px;
-	margin-right:10px;
-
-}
-.personal_section{
-	display:inline-block;
-	background-color:rgb(231, 234, 240);
-	width:25%;
-	height:100%;
-	vertical-align: bottom;
-
+/* Clearfix */
+.row::before,
+.row::after {
+  display: table;
+  content: '';
 }
 
+.row::after {
+  clear: both;
+}
 
-.projects_section{
-	display:inline-block;
-	background-color:white;
-	width:75%;
-	height:100%;
-	vertical-align: bottom;
+.col-3, .col-4, .col-6, .col-12 {
+  float: left;
+  height:100%;
+
+
+  /* Gutters:
+   * Each column is padded by half-a-gutter on each side,
+   *
+   * Half a gutter is 10px, 10/960 (context) = 1.041666%
+   *
+   */
+}
+
+/* Mobile defaults */
+.col-3, .col-4, .col-6, .col-12 {
+  width: 100%;
+  text-align:left;
+}
+@media only screen and (min-width:640px){
+  /* 3 columns, 3/12 in % */
+  .col-3 {
+    width: 25%;
+  }
+
+  /* 4 columns */
+  .col-4 {
+    width:33.333333%
+  }
+
+  /* 6 columns */
+  .col-6 {
+    width:50%;
+
+  }
+
+  /* 12 columns */
+  .col-12 {
+    width:100%;
+  }
+
+  .project_description{
+    width:50%;
+  }
+  .contact_group{
+  text-align:center;
+}
 
 }
 
-.projects_info{
-	margin-top:20px;
-	margin-right:20px;
-	margin-left:20px;
+/* RESPONSIVE GRID STOP */
+
+/* STYLES START */
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+  padding: 0;
 }
 
-.skill_listing{
-	margin-top: 5px;
-	margin-bottom: 5px;
+p{
+  margin:5px;
 }
 
-.projects_listing{
-	position:relative;
-	margin-top:10px;
-	margin-bottom:10px;
-
+main {
+  margin-top: 20px;
 }
 
-.project_title{
-	display:inline-block;
-	width:60%;
-	font-size:18px;
-	font-family: 'Oxygen', sans-serif;
-	color:rgb(77, 137, 255);
-	text-decoration:underline;
-	margin-bottom:1px;
-
+h3 {
+  padding-left: 10px;
 }
 
-.project_date{
-	display:inline-block;
-	text-align:right;
-	width:40%;
-	font-size:18px;
-	font-family: 'Oxygen', sans-serif;
-}
-
-.project_description{
-	font-family: 'Varela Round', sans-serif;
-	font-size: 14px;
-}
-
-.underline{
-	background-color: rgb(77, 137, 255);;
-	height:3px;
-	margin-bottom: 10px;
-}
-
-.section_head{
-	color: rgb(77, 137, 255);
-	font-family:'Oxygen', sans-serif;
-	font-size:21px;
-	margin-top:5px;
-	margin-bottom:2px;
-}
-
-.name{
-	margin-top:15px;
-	font-family: 'Oxygen', sans-serif;
-	font-size: 30px;
-}
-
-.job_title{
-	font-family: 'Oxygen', sans-serif;
-	font-size: 17px;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-
-.skills_list{
-	margin-top:10px;
-	font-family: 'Oxygen', sans-serif;
-	font-size:14px;
-}
-
-a {
-	text-decoration: none;
-	color:inherit;
+a{
+  color:inherit;
+  text-decoration: none;
 }
 
 a:hover{
-	color:#0000b3;
+  color:#0000b3;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.caption {
+  padding-left: 10px;
+}
+
+.box_title{
+  background-color: #add15d;
+  font-size: 32px;
+  color:white;
+  padding-top:8px;
+  padding-bottom:8px;
+  padding-left:16px;
+  font-family:'Oxygen', sans-serif;
 }
 
 .contact_info{
-	font-family: 'Oxygen', sans-serif;
-	font-size: 11px;
-	line-height:1.2;
-	margin-bottom: 10px;
+  height:100px;
+  text-align:center;
 }
 
-.info_line{
-	margin-bottom: 2px;
-	margin-top: 2px;
+.portrait{
+  float:left;
 }
+
+.miley{
+  float:left;
+  height:200px;
+  margin-right: 10px;
+
+}
+
+.name{
+  background-color: #add15d;
+  color:white;
+  display:inline-block;
+  font-family: 'Oxygen', sans-serif;
+  padding:10px;
+}
+
+.personal_statement{
+
+}
+
+.icon{
+  width:30px;
+  height:auto;
+  background-color: #add15d;
+  display:inline-block;
+  padding:10px;
+  border-radius:50%;
+  vertical-align: top;
+}
+
+.contact_type{
+  display:inline-block;
+  text-align: left;
+  vertical-align: bottom;
+  margin-top: 25px;
+  height:50px;
+  font-size: 14px;
+
+}
+
+.project_listing{
+  margin-top: 20px;
+  margin-bottom:20px;
+}
+.project_title{
+  width:60%;
+  float: left;
+  vertical-align: top;
+  font-size: 18px;
+  font-family: 'Oxygen', sans-serif;
+  color:#add15d;
+}
+
+.project_dates{
+  width:40%;
+  float:left;
+  vertical-align: top;
+  text-align: right;
+  font-size: 18px;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.project_description{
+  display:block;
+}
+
+
+/* STYLES STOP */

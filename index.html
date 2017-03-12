@@ -1,82 +1,144 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head meta charset="UTF-8">
-    <link rel="stylesheet" href="styles.css" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
-  </head>
-  <body>
-    <div class="personal_section">
-      <div class="personal_info">
-        <div class="name">Samuel Langenfeld</div>
-        <div class="job_title">ASPIRING JUNIOR WEB DEVELOPER</div>
-        <div class="contact_info">
-          <p class="info_line">samlangenfeld@gmail.com</p>
-          <p class="info_line">703-389-7269</p>
-          <p class="info_line">Falls Church, Virginia</p>
-          <p class="info_line"><a href="https://github.com/SamuelLangenfeld" target="_blank">https://github.com/SamuelLangenfeld</a></p>
-        </div>
-
-        <div class="skills_info">
-          <div class="section_head">Skills</div>
-          <div class="underline"></div>
-          <div class="skills_list">
-            <b>PROGRAMMING</b>
-            <p class="skill_listing">Ruby on Rails</p>
-            <p class="skill_listing">Ruby</p>
-            <p class="skill_listing">Java</p>
-            <p class="skill_listing">HTML</p>
-            <p class="skill_listing">CSS</p>
-        </div>
-      </div>
+<head>
+  <link rel="stylesheet" href="styles.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+    	<div class="portait">
+    		<img src="miley.jpg" class="miley">
+    	</div>
+    	<div class="name">
+    		<h1>SAMUEL</h1>
+    		<h1>LANGENFELD</h1>
+    		<p>Junior Web Developer</p>
+    	</div>
     </div>
+    
 
-    </div><div class="projects_section">
-      <div class="projects_info">
-        <div class="section_head">Projects</div>
-        <div class="underline"></div>
-        <div class="projects_listing">
-        
-          <div class="project_title"><a href="https://github.com/SamuelLangenfeld/sample_app" target="_blank">
-            Ruby on Rails Tutorial by Michael Hartl
-          </a></div><div class="project_date">
-            Jan 2017 to Current
-          </div>
-          <div class="project_description">
-            I'm developing a twitter clone with Ruby on Rails. It currently has signup, login, and logout functionality.
-          </div>
-        </div>
-        <div class="projects_listing">
-          <div class="project_title"><a href="https://github.com/SamuelLangenfeld/sinatra_hangman" target="_blank">
-            Hangman App
-          </a></div><div class="project_date">
-            Jan 2017
-          </div>
-          <div class="project_description">
-            A simple app for a hangman game, developed through Sinatra.
-          </div>
-        </div>
-        <div class="projects_listing">
-          <div class="project_title"><a href="https://github.com/SamuelLangenfeld/sinatra_caesar_cipher" target="_blank">
-           Caesar Cipher App
-          </a></div><div class="project_date">
-            Jan 2017
-          </div>
-          <div class="project_description">
-            An app that takes a user's message and shifts each letter across the alphabet to encrypt it. Developed with Sinatra.
-          </div>
-        </div>
-        <div class="projects_listing">
-          <div class="project_title"><a href="https://github.com/SamuelLangenfeld/Chess" target="_blank">
-           Command Console Chess
-          </a></div><div class="project_date">
-            Nov 2016 to Dec 2016
-          </div>
-          <div class="project_description">
-            A game of chess that is played on the command line between two players or against a simple A.I. who makes random legal moves. Developed in Ruby.
-          </div>
-        </div>
-      </div>
-    </div>
-  </body>
-</html>
+    <div class="row">
+		<div class="personal_statement">Mission Statement</div>
+	</div>
+
+	<div class="row">
+		<div class="box_title" id="contact_title">Contact</div>
+	</div>
+
+	<div class="row">
+		<div class="contact_info">
+			<div class="col-4">
+				<div class="contact_group">					
+					<div class="contact_type">
+						<img src="email_icon.png" class="icon">
+					</div>
+					<div class="contact_type">
+						<p><b>Email</b><br>
+						samlangenfeld@gmail.com</p>
+					</div>
+				</div>
+					
+			</div>
+			<div class="col-4">
+				<div class="contact_group">
+					<div class="contact_type">
+						<img src="mobile_icon.png" class="icon">
+					</div>
+					<div class="contact_type">
+						<p><b>Mobile</b><br>
+						703-389-7269</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="contact_group">
+					<div class="contact_type">
+						<img src="address_icon.png" class="icon">
+					</div>
+					<div class="contact_type">
+						<p><b>Address</b><br>
+						6369 Lakewood Dr.<br>
+						Falls Church, VA 22041</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="box_title" id="portfolio_title">Portfolio</div>
+	</div>
+
+	<div class="row">
+		<div class="project_listing">
+			<div class="col-12">
+				<div class="project_title">
+					<p><a href="https://github.com/SamuelLangenfeld/sample_app" target="_blank">Ruby on Rails Tutorial by Michael Hartle</a></p>
+				</div>
+				<div class="project_dates">
+					<p>Jan 2017 - Mar 2017</p>
+				</div>
+			</div>
+			<div class="project_description">
+				<p>I'm developing a twitter clone with Ruby on Rails. It currently has signup, login, and logout functionality.
+				</p>
+			</div>
+		</div>
+
+		<div class="project_listing">
+			<div class="col-12">
+				<div class="project_title">
+					<p><a href="https://github.com/SamuelLangenfeld/sinatra_hangman" target="_blank">Hangman App</a></p>
+				</div>
+				<div class="project_dates">
+					<p>Jan 2017
+					</p>
+				</div>
+			</div>
+			<div class="project_description">
+				<p>A simple app for a hangman game, developed through Sinatra.
+				</p>
+			</div>
+		</div>
+		<div class="project_listing">
+			<div class="col-12">
+				<div class="project_title">
+					<p><a href="https://github.com/SamuelLangenfeld/sinatra_caesar_cipher" target="_blank">Caesar Cipher App</a></p>
+				</div>
+				<div class="project_dates">
+					<p>Jan 2017
+					</p>
+				</div>
+			</div>
+			<div class="project_description">
+				<p>An app that takes a user's message and shifts each letter across the alphabet to encrypt it. Developed with Sinatra.
+				</p>
+			</div>
+		</div>		
+		<div class="project_listing">
+			<div class="col-12">
+				<div class="project_title">
+					<p><a href="https://github.com/SamuelLangenfeld/Chess" target="_blank">Command Console Chess</a>
+					</p>
+				</div>
+				<div class="project_dates">
+					<p>Nov 2016 to Dec 2016
+					</p>
+				</div>
+			</div>
+			<div class="project_description">
+				<p>A game of chess that is played on the command line between two players or against a simple A.I. who makes random legal moves. Developed in Ruby.
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="box_title" id="skills_title">Skills</div>
+	</div>
+	<div class="row">
+		<div class="skills_info">skills_info</div>
+	</div>
+  </div>
+</body>
+
