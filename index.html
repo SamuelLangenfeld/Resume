@@ -3,23 +3,25 @@
   <link rel="stylesheet" href="styles.css" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <title>Samuel Langenfeld | Resume</title>
 </head>
 <body>
   <div class="container">
     <div class="row">
-    	<div class="portait">
-    		<img src="miley.jpg" class="miley">
-    	</div>
-    	<div class="name">
-    		<h1>SAMUEL</h1>
-    		<h1>LANGENFELD</h1>
-    		<p>Junior Web Developer</p>
-    	</div>
+    	<div class="header">
+	    	<div class="portait">
+	    		<img src="miley.jpg" class="my_pic">
+	    	</div>
+	    	<div class="name">
+	    		<h1>SAMUEL</h1>
+	    		<h1>LANGENFELD</h1>
+	    		<p>Junior Web Developer</p>
+	    	</div>
+	    </div>
     </div>
-    
-
     <div class="row">
-		<div class="personal_statement">Mission Statement</div>
+		<div class="personal_statement">I am a dog walker turned self-taught web developer. My fluffy friends are sad to see me go, but I crave the excitement of Google and Stack Overflow. I started learning web development in October 2016, first Ruby then Ruby on Rails. There's nothing better than seeing something you made come to life and turning it loose onto the internet where anyone can see and use it. At the moment I'm looking for my first developer job in the Washington, D.C. area. My highest goal is to break the internet by accident. Failing that, I'd like to work for a company that values collaborative learning, cool technology, and party games.</div>
 	</div>
 
 	<div class="row">
@@ -54,12 +56,23 @@
 			<div class="col-4">
 				<div class="contact_group">
 					<div class="contact_type">
+						<img src="github_icon.png" class="icon">
+					</div>
+					<div class="contact_type">
+						<p><a href="github.com/SamuelLangenfeld" target="_blank"><b>Github</b><br>
+						github.com/SamuelLangenfeld</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="contact_group">
+					<div class="contact_type">
 						<img src="address_icon.png" class="icon">
 					</div>
 					<div class="contact_type">
 						<p><b>Address</b><br>
-						6369 Lakewood Dr.<br>
-						Falls Church, VA 22041</p>
+						6369 Lakewood Dr<br>
+						Falls Church, VA</p>
 					</div>
 				</div>
 			</div>
@@ -74,14 +87,14 @@
 		<div class="project_listing">
 			<div class="col-12">
 				<div class="project_title">
-					<p><a href="https://github.com/SamuelLangenfeld/sample_app" target="_blank">Ruby on Rails Tutorial by Michael Hartle</a></p>
+					<h2><a href="https://github.com/SamuelLangenfeld/sample_app" target="_blank">Ruby on Rails Tutorial by Michael Hartle</a></h2>
 				</div>
 				<div class="project_dates">
 					<p>Jan 2017 - Mar 2017</p>
 				</div>
 			</div>
 			<div class="project_description">
-				<p>I'm developing a twitter clone with Ruby on Rails. It currently has signup, login, and logout functionality.
+				<p>A twitter-like app for Ruby on Rails that I made to learn the basics of Rails. It is a micropost app that allows users to sign up, login/logout, create microposts, and follow other users.
 				</p>
 			</div>
 		</div>
@@ -89,7 +102,7 @@
 		<div class="project_listing">
 			<div class="col-12">
 				<div class="project_title">
-					<p><a href="https://github.com/SamuelLangenfeld/sinatra_hangman" target="_blank">Hangman App</a></p>
+					<h2><a href="https://github.com/SamuelLangenfeld/sinatra_hangman" target="_blank">Hangman App</a></h2>
 				</div>
 				<div class="project_dates">
 					<p>Jan 2017
@@ -97,14 +110,14 @@
 				</div>
 			</div>
 			<div class="project_description">
-				<p>A simple app for a hangman game, developed through Sinatra.
+				<p>A Sinatra app for the classic game of Hangman.
 				</p>
 			</div>
 		</div>
 		<div class="project_listing">
 			<div class="col-12">
 				<div class="project_title">
-					<p><a href="https://github.com/SamuelLangenfeld/sinatra_caesar_cipher" target="_blank">Caesar Cipher App</a></p>
+					<h2><a href="https://github.com/SamuelLangenfeld/sinatra_caesar_cipher" target="_blank">Caesar Cipher App</a></h2>
 				</div>
 				<div class="project_dates">
 					<p>Jan 2017
@@ -112,15 +125,15 @@
 				</div>
 			</div>
 			<div class="project_description">
-				<p>An app that takes a user's message and shifts each letter across the alphabet to encrypt it. Developed with Sinatra.
+				<p>A Sinatra app that takes a user's message and shifts each letter across the alphabet to encrypt it.
 				</p>
 			</div>
 		</div>		
 		<div class="project_listing">
 			<div class="col-12">
 				<div class="project_title">
-					<p><a href="https://github.com/SamuelLangenfeld/Chess" target="_blank">Command Console Chess</a>
-					</p>
+					<h2><a href="https://github.com/SamuelLangenfeld/Chess" target="_blank">Command Console Chess</a>
+					</h2>
 				</div>
 				<div class="project_dates">
 					<p>Nov 2016 to Dec 2016
@@ -137,7 +150,12 @@
 		<div class="box_title" id="skills_title">Skills</div>
 	</div>
 	<div class="row">
-		<div class="skills_info">skills_info</div>
+		<div class="skills_info">
+			<p>Ruby</p>
+			<p>Ruby on Rails</p>
+			<p>HTML</p>
+			<p>CSS</p>
+		</div>
 	</div>
   </div>
 </body>
