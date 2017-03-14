@@ -236,7 +236,7 @@ a:hover{
 
 .personal_statement{
   font-size:14px;
-  font-family:'Open Sans', sans-serif;
+  font-family:'Open Sans', 'Arial', sans-serif;
   margin-top:60px;
   text-indent:50px;
 }
