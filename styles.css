@@ -27,6 +27,7 @@
 .row::after {
   display: table;
   content: '';
+  margin: 10px 0px;
 }
 
 .row::after {
@@ -188,7 +189,8 @@ a:hover{
   display:inline-block;
   text-align: left;
   vertical-align: bottom;
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   height:50px;
   font-size: 14px;
 
@@ -245,7 +247,7 @@ a:hover{
 }
 
 body{
-  background-color: #efefef;
+  background-color: #fff;
   margin:0;
 }
 
