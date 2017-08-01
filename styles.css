@@ -138,9 +138,13 @@ a:hover{
 }
 
 .contact_info{
-  text-align:center;
-  display:inline-block;
+  justify-content: space-between;
+  display:flex;
   width:100%;
+}
+
+.contact_group{
+  display:inline-block;
 }
 
 .portrait{
