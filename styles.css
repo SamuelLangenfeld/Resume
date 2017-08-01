@@ -164,7 +164,7 @@ a:hover{
 
 
 .icon{
-  width:30px;
+  width:20px;
   height:auto;
   background-color: #add15d;
   display:inline-block;
@@ -178,8 +178,7 @@ a:hover{
   text-align: left;
   vertical-align: bottom;
   margin-top: 10px;
-  margin-bottom: 10px;
-  height:50px;
+  margin-bottom: 0px;
   font-size: 14px;
 
 }
@@ -237,6 +236,15 @@ a:hover{
 body{
   background-color: #fff;
   margin:0;
+}
+
+#spacer-row{
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#spacer{
+  padding-bottom:0px;
 }
 
 
