@@ -181,6 +181,7 @@ a:hover {
   margin-top: 10px;
   margin-bottom: 0px;
   font-size: 12px;
+  font-family: "Open Sans";
 }
 
 .project_listing::before,
@@ -246,4 +247,11 @@ body {
   padding-bottom: 0px;
 }
 
-/* STYLES STOP */
+.skills_list {
+  margin-bottom: 15px;
+  font-family: "Open Sans";
+}
+
+.skill_type {
+  width: 200px;
+}
