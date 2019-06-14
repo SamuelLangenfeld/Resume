@@ -195,6 +195,7 @@ a:hover {
 .skills_list {
   margin-bottom: 15px;
   font-family: "Open Sans";
+  font-size: 14px;
 }
 
 .skill_type {
@@ -211,4 +212,23 @@ a:hover {
 
 .primary_color {
   color: #8aaf3a;
+}
+
+.job_list {
+  margin-bottom: 8px;
+}
+
+.bullet_list {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  margin-bottom: 24px;
+}
+
+.bullet_list > li {
+  margin-bottom: 4px
 }
