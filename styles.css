@@ -25,7 +25,6 @@
 .col-4,
 .col-6,
 .col-12 {
-  float: left;
   height: 100%;
 
   /* Gutters:
@@ -73,10 +72,6 @@
     width: 100%;
   }
 
-  .project_description {
-    width: 50%;
-  }
-
   .container {
     width: 80%;
     margin: 0 auto;
@@ -104,17 +99,10 @@ p {
   margin-left: 0px;
 }
 
-main {
-  margin-top: 20px;
-}
-
 h2 {
   font-size: 16px;
   margin-top: 0px;
   margin-bottom: 0px;
-}
-h3 {
-  padding-left: 10px;
 }
 
 a {
@@ -126,12 +114,7 @@ a:hover {
   color: #00aff0;
 }
 
-.caption {
-  padding-left: 10px;
-}
-
 .box_title {
-  color: #add15d;
   font-size: 20px;
   padding-bottom: 4px;
   border-bottom: 1px solid #add15d;
@@ -150,19 +133,8 @@ a:hover {
 }
 
 .name {
-  color: #add15d;
   display: inline-block;
   font-family: "Oxygen", sans-serif;
-}
-
-.icon {
-  width: 20px;
-  height: auto;
-  background-color: #add15d;
-  display: inline-block;
-  padding: 10px;
-  border-radius: 50%;
-  vertical-align: top;
 }
 
 .contact_type {
@@ -174,15 +146,8 @@ a:hover {
   font-family: "Open Sans";
 }
 
-.project_listing::before,
-.project_listing::after {
-  clear: both;
-}
 .project_listing {
   margin-top: 15px;
-  display: table;
-  content: "";
-  width: 100%;
 }
 .project_title {
   font-size: 18px;
@@ -199,8 +164,7 @@ a:hover {
 }
 
 .project_description {
-  width: 600px;
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -209,18 +173,13 @@ a:hover {
 }
 
 .personal_statement {
-  font-size: 15px;
+  font-size: 14px;
   font-family: "Open Sans", "Arial", sans-serif;
   margin-top: 10px;
 }
 
 .header {
   text-align: center;
-}
-
-body {
-  background-color: #fff;
-  margin: 0;
 }
 
 #spacer-row {
@@ -248,4 +207,8 @@ body {
 
 .job_title {
  margin-top: 8px 
+}
+
+.primary_color {
+  color: #8aaf3a;
 }
