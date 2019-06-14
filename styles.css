@@ -90,9 +90,13 @@
 /* STYLES START */
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   margin: 0;
   padding: 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #add15d;
+  margin-top:48px;
+  font-weight: normal;
 }
 
 p {
@@ -105,7 +109,7 @@ main {
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 16px;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -127,12 +131,10 @@ a:hover {
 }
 
 .box_title {
-  background-color: #add15d;
-  font-size: 24px;
-  color: white;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 16px;
+  color: #add15d;
+  font-size: 20px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #add15d;
   font-family: "Oxygen", sans-serif;
 }
 
@@ -143,25 +145,14 @@ a:hover {
 }
 
 .contact_group {
-  display: inline-block;
-}
-
-.portrait {
-  float: left;
-}
-
-.my_pic {
-  float: left;
-  height: 300px;
-  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .name {
-  background-color: #add15d;
-  color: white;
+  color: #add15d;
   display: inline-block;
   font-family: "Oxygen", sans-serif;
-  padding: 10px;
 }
 
 .icon {
@@ -178,7 +169,6 @@ a:hover {
   display: inline-block;
   text-align: left;
   vertical-align: bottom;
-  margin-top: 10px;
   margin-bottom: 0px;
   font-size: 12px;
   font-family: "Open Sans";
@@ -195,25 +185,20 @@ a:hover {
   width: 100%;
 }
 .project_title {
-  width: 60%;
-  float: left;
-  vertical-align: top;
   font-size: 18px;
   font-family: "Oxygen", sans-serif;
-  color: #5398be;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
 }
 
 .project_dates {
-  width: 40%;
-  float: left;
-  vertical-align: top;
-  text-align: right;
   font-size: 16px;
   font-family: "Oxygen", sans-serif;
+  display: flex;
 }
 
 .project_description {
-  float: left;
   width: 600px;
   font-size: 15px;
   font-family: "Open Sans", sans-serif;
@@ -245,6 +230,7 @@ body {
 
 #spacer {
   padding-bottom: 0px;
+  padding-top: 5px;
 }
 
 .skills_list {
@@ -254,4 +240,12 @@ body {
 
 .skill_type {
   width: 200px;
+}
+
+.project_label {
+  display: flex;
+}
+
+.job_title {
+ margin-top: 8px 
 }
