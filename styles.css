@@ -1,70 +1,18 @@
-/* RESPONSIVE GRID START */
- {
-  box-sizing: border-box;
-}
-
-/* Grid measurements:
- *
- *   960px wide including 12 gutters (half gutters on both edges)
- *
- *   60px columns (12)
- *   20px gutters (two half-gutters + 11 full gutters, so 12 total)
- *
- *
- *   For smaller screens, we always want 20px of padding on either side,
- *   so 960 + 20 + 20 => 1000px
- *
- **/
 .row {
-  padding-left: 20px;
-  padding-right: 20px;
   margin-top: 20px;
 }
 
-.col-3,
-.col-4,
-.col-6,
-.col-12 {
-  height: 100%;
-
-  /* Gutters:
-   * Each column is padded by half-a-gutter on each side,
-   *
-   * Half a gutter is 10px, 10/960 (context) = 1.041666%
-   *
-   */
-}
-
-.col-3 {
-  width: 25%;
-}
-
-/* 4 columns */
-.col-4 {
-  width: 33.333333%;
-}
-
-/* 6 columns */
-.col-6 {
-  width: 50%;
-}
-
-/* 12 columns */
-.col-12 {
-  width: 100%;
-}
-
 .container {
-  width: 80%;
-  max-width: 960px;
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 100%;
   background-color: white;
+}
+
+.contents {
+  max-width: 960px;
   padding-bottom: 16px;
 }
-
-/* RESPONSIVE GRID STOP */
-
-/* STYLES START */
 
 h1 {
   font-size: 28px;
@@ -74,11 +22,6 @@ h1 {
   border-bottom: 1px solid #add15d;
   margin-top:48px;
   font-weight: normal;
-}
-
-p {
-  margin: 5px;
-  margin-left: 0px;
 }
 
 h2 {
@@ -129,7 +72,8 @@ a:hover {
 }
 
 .project_listing {
-  margin-top: 15px;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 .project_title {
   font-size: 18px;
@@ -154,28 +98,12 @@ a:hover {
   font-family: "Open Sans", sans-serif;
 }
 
-.personal_statement {
-  font-size: 14px;
-  font-family: "Open Sans", "Arial", sans-serif;
-  margin-top: 10px;
-}
-
 .header {
   text-align: center;
 }
 
-#spacer-row {
-  margin-top: 10px;
-  margin-bottom: 30px;
-}
-
-#spacer {
-  padding-bottom: 0px;
-  padding-top: 5px;
-}
-
 .skills_list {
-  margin-bottom: 15px;
+  margin-bottom: 1rem;
   font-family: "Open Sans";
   font-size: 14px;
 }
@@ -189,7 +117,7 @@ a:hover {
 }
 
 .job_title {
- margin-top: 8px 
+ margin-top: 0.5rem;
 }
 
 .primary_color {
@@ -206,15 +134,11 @@ a:hover {
   margin-block-start: 1em;
   margin-block-end: 0;
   margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
+  padding: 0;
+  padding-left: 2rem;
   margin-bottom: 24px;
 }
 
 .bullet_list > li {
   margin-bottom: 4px
-}
-
-body {
-  width: 840px;
 }
