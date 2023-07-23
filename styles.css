@@ -142,3 +142,13 @@ a:hover {
 .bullet_list > li {
   margin-bottom: 4px
 }
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.blurb {
+  font-size: 20px;
+  font-style: italic;
+}
